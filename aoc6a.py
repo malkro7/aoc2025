@@ -49,7 +49,7 @@ def solve_worksheet(lines):
 
 if __name__ == "__main__":
     # Read file
-    with open("day6input.txt", "r") as f:
+    with open("aoc6i.txt", "r") as f:
         lines = [line.rstrip("\n") for line in f]
 
     # Compute and print result

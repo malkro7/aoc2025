@@ -36,4 +36,4 @@ def count_unique_fresh_ids(filename: str) -> int:
 
 
 # Example:
-print(count_unique_fresh_ids("day5input.txt"))
+print(count_unique_fresh_ids("aoc5i.txt"))

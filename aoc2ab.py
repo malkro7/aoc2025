@@ -90,7 +90,7 @@ def _print_results(title: str, invalids: List[int]):
 
 def main():
     parser = argparse.ArgumentParser(description="Run part A and part B for day 2")
-    parser.add_argument("input", nargs="?", default="day2input.txt", help="input file path")
+    parser.add_argument("input", nargs="?", default="aoc2i.txt", help="input file path")
     args = parser.parse_args()
 
     with open(args.input, "r", encoding="utf-8") as f:

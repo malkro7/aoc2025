@@ -42,7 +42,7 @@ def simulate_removal(grid):
 
 
 def main():
-    with open("day4input.txt") as f:
+    with open("aoc4i.txt") as f:
         grid = [list(line.strip()) for line in f]
 
     removed = simulate_removal(grid)

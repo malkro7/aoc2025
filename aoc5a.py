@@ -28,4 +28,4 @@ def count_fresh_ids_from_file(filename: str) -> int:
 
 
 # Example usage:
-print(count_fresh_ids_from_file("day5input.txt"))
+print(count_fresh_ids_from_file("aoc5i.txt"))

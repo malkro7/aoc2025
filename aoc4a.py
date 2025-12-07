@@ -30,7 +30,7 @@ def count_accessible_rolls(grid):
 
 
 def main():
-    with open("day4input.txt") as f:
+    with open("aoc4i.txt") as f:
         grid = [line.rstrip("\n") for line in f]
 
     result = count_accessible_rolls(grid)

@@ -127,7 +127,7 @@ def partb(lines: List[str]) -> int:
 
 def main():
     parser = argparse.ArgumentParser(description="Run part A and part B for day 6")
-    parser.add_argument("input", nargs="?", default="day6input.txt", help="input file path")
+    parser.add_argument("input", nargs="?", default="aoc6i.txt", help="input file path")
     args = parser.parse_args()
 
     with open(args.input, "r", encoding="utf-8") as f:

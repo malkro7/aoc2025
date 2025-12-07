@@ -1,4 +1,4 @@
-with open("day1input.txt") as f:
+with open("aoc1i.txt") as f:
     input = f.read().splitlines()
 pos = 50
 max_pos = 99
